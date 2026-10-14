@@ -22,7 +22,7 @@ public class FilterController {
     }
     @GetMapping("/hello")
     public String func() {
-    	return "We guys are practicing some super cool stuff so u better appriciate us!!!!!!";
+    	return "We guys are practicing some super cool stuff so u better appriciate us!";
     }
     @GetMapping("/genre")
     public List<TrackDTO> filterByGenre(@RequestParam String genreName) {
